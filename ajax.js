@@ -17,7 +17,7 @@ var allowCrossDomain = function(req, res, next) {
 server.use(allowCrossDomain)
 
 server.get('/', function(req,res,next){
-    res.json('888888888888888888888')
+    res.json('8888888888888888888889999')
 })
 server.listen(process.env.PORT|| 3000,function(){
     console.log('listen on 3000')
