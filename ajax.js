@@ -35,19 +35,9 @@ server.post('/login', function(req,res,next){
     }
 })
 
-
 server.get('/', function(req, res, next){
     res.sendFile(path.join(__dirname,'index.html'))
 })
-
-
-
-
-
-
-
-
-
 server.listen(process.env.PORT|| 3000,function(){
     console.log('listen on 3000')
 })
