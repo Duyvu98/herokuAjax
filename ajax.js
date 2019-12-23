@@ -22,7 +22,7 @@ server.post('/', function(req,res,next){
 
 
 server.get('/login',function(req, res, next){
-    res.sendFile(path.join(__dirname,'./public/html/login.html'))
+    res.json('Abc')
 })
 
 var isLogin = false;
